@@ -13,12 +13,16 @@ header {
   text-align: center;
 }
 
-
-
-
-aside:hover {
-  display: block;
+.container {
+  max-width: 900px;
+  margin: 2em auto;
+  background: white;
+  box-shadow: 0 0 8px #ccc;
+  padding: 1em;
 }
+
+
+
 
 
 .menu {
@@ -49,8 +53,8 @@ aside {
 }
 #tables {
   Float: right;
-  margin:4px;
-  text-align: center;
+  margin:auto;
+
 }
 #hyperlinks {
   clear: both;
